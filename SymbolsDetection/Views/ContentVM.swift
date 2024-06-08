@@ -23,9 +23,6 @@ class ContentVM : ObservableObject {
     /// A predictor instance that uses Vision and Core ML to generate prediction strings from a photo.
     private let imagePredictor = ImagePredictor()
 
-    /// The largest number of predictions the main view controller displays the user.
-    private let predictionsToShow    = 2
-
     // MARK: - Init
     init() {
     }
